@@ -1,0 +1,14 @@
+{
+  "name": "unload-object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape 'test/??_*.js'"
+  },
+  "author": "Simon Walz",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^5.4.0"
+  }
+}
