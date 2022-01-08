@@ -1,7 +1,7 @@
 {
   "name": "unload-object",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unload any object",
   "main": "index.js",
   "scripts": {
     "test": "tape 'test/??_*.js'"
