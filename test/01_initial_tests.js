@@ -141,3 +141,13 @@ test('unload result of a promise', function (t) {
 
 	unload(p);
 });
+
+test('no error on undefined, null, true, false', function (t) {
+	t.plan(1);
+
+	unload(undefined);
+	unload(null);
+	unload(true);
+	unload(false);
+	t.ok(1, "no error");
+});
