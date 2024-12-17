@@ -1,6 +1,6 @@
 {
   "name": "unload-object",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unload any object",
   "main": "index.js",
   "scripts": {
