@@ -39,7 +39,7 @@ exports.unload = function(object) {
 			object.then(function(value) {
 				exports.unload(value);
 			}, function(err) {
-				exports.unload(value);
+				exports.unload(err);
 			});
 		// subscribe:
 		} else if (typeof object.remove === "function") {
